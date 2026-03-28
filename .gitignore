@@ -1,0 +1,76 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+logs/
+tmp/
+temp/
+
+# =========================
+# Data files (IMPORTANT)
+# =========================
+data/
+*.json
+!data/.gitkeep
+
+# If you want to keep specific JSON:
+# !data/final_news.json
+
+# =========================
+# Model / ML artifacts
+# =========================
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+models/
+checkpoints/
+
+# =========================
+# API keys / secrets
+# =========================
+.env
+config_secret.py
+*.key
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# Build / packaging
+# =========================
+dist/
+build/
+*.egg-info/
