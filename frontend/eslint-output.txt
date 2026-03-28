@@ -1,0 +1,38 @@
+
+D:\smartfinance\frontend\src\app\api\portfolio\route.ts
+  57:12  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\smartfinance\frontend\src\app\dashboard\overview\page.tsx
+  27:20  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  28:18  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  29:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  35:38  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  36:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  37:34  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\smartfinance\frontend\src\app\dashboard\research\page.tsx
+  12:10  warning  'error' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\smartfinance\frontend\src\app\page.tsx
+  191:28  warning  'i' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\smartfinance\frontend\src\components\charts\BullishBearishMixChart.tsx
+  30:33  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  73:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  73:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\smartfinance\frontend\src\components\charts\PortfolioChart.tsx
+  65:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  65:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\smartfinance\frontend\src\components\charts\SentimentTrendChart.tsx
+  25:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  61:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\smartfinance\frontend\src\components\charts\SourceDistributionChart.tsx
+  35:33  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  74:32  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  74:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+Γ£û 19 problems (16 errors, 3 warnings)
+

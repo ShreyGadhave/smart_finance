@@ -1,20 +1,11 @@
 # =========================
-# Python
+# System / OS
 # =========================
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-
-# Virtual environments
-.env
-.venv
-venv/
-env/
+.DS_Store
+Thumbs.db
 
 # =========================
-# VS Code / IDE
+# IDEs
 # =========================
 .vscode/
 .idea/
@@ -22,22 +13,52 @@ env/
 *.swo
 
 # =========================
-# Logs & temp files
+# Python / Backend
 # =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv
+venv/
+env/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config_secret.py
 *.log
 logs/
 tmp/
 temp/
-
-# =========================
-# Data files (IMPORTANT)
-# =========================
 data/
-*.json
 !data/.gitkeep
 
-# If you want to keep specific JSON:
-# !data/final_news.json
+# =========================
+# Node.js / Frontend
+# =========================
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+build/
+frontend/build/
+dist/
+frontend/dist/
+.vercel
+frontend/.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# =========================
+# Cypress / Testing
+# =========================
+cypress/screenshots/
+cypress/videos/
 
 # =========================
 # Model / ML artifacts
@@ -51,26 +72,8 @@ models/
 checkpoints/
 
 # =========================
-# API keys / secrets
+# Others
 # =========================
-.env
-config_secret.py
 *.key
-
-# =========================
-# OS files
-# =========================
-.DS_Store
-Thumbs.db
-
-# =========================
-# Jupyter Notebook
-# =========================
 .ipynb_checkpoints
-
-# =========================
-# Build / packaging
-# =========================
-dist/
-build/
 *.egg-info/
