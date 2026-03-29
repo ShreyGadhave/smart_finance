@@ -95,7 +95,7 @@ def get_technical_indicators(ticker: str) -> Dict[str, Any]:
                 ind["market_state"] = "Neutral / Consolidation"
                 ind["bin_name"] = "Sideways Market"
 
-    summary = f"**Market Outlook Summary for {ticker}**\n\nDirectional Bias: {'Bullish' if indicators[0]['value'] > 50 else 'Bearish'}. Trend suggests {'consolidation' if indicators[1]['value'] < 4 else 'high volatility movement'}. Risk node is {'ELEVATED' if indicators[1]['value'] > 5 else 'STABLE'}."
+    summary = f"MARKET OUTLOOK SUMMARY FOR {ticker}\n\nDIRECTIONAL BIAS: {'BULLISH' if indicators[0]['value'] > 50 else 'BEARISH'}. Trend suggests {'consolidation' if indicators[1]['value'] < 4 else 'high volatility movement'}. RISK NODE: {'ELEVATED' if indicators[1]['value'] > 5 else 'STABLE'}."
 
     return {
         "ticker": ticker,

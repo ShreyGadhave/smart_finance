@@ -1,0 +1,2318 @@
+[
+  {
+    "_id": {
+      "$oid": "69c829ca8ef822349217c718"
+    },
+    "ticker": "20MICRONS.NS",
+    "company_name": "20 Microns Limited",
+    "company_sector": "Basic Materials",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 36.22277205568811,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 4.336396640204737,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 10.554373864311096,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When %K falls below 20, the asset is considered oversold. This means the closing price is near the lower end of its recent price range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often look for bullish reversals, especially if %K crosses above %D or bullish divergence appears. However, in strong downtrends, the oscillator can remain in this zone for extended periods."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -88.06049427299506,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -81.02343170472335,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 34.514347707971964,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 15.428406759250196,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -2.919539883683825,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 7.14285714285714,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for 20MICRONS.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Weak, with a strong downtrend indicated by Aroon, but ADX suggests a sideways market\n* **Momentum Assessment:** Neutral to bearish, with RSI and Ultimate Oscillator in neutral zones, but Stochastic Oscillator and Williams %R indicate oversold conditions\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements\n* **Risk Level:** High, due to elevated volatility and potential for rapid price movements, requiring adjusted stop-loss distances",
+    "created_at": {
+      "$date": "2026-03-28T19:19:38.906Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829cb8ef822349217c719"
+    },
+    "ticker": "21STCENMGM.NS",
+    "company_name": "Twentyfirst Century Management Services Limited",
+    "company_sector": "Financial Services",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 26.852281179101613,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "An RSI value below 30 indicates that the asset is in the oversold zone. This means selling pressure has been strong and sustained, pushing the price down rapidly. At this level, the asset may be undervalued in the short term and could be approaching a potential reversal or bounce. However, during strong downtrends, RSI can remain below 30 for extended periods. Traders typically look for confirmation signals such as bullish divergence or support levels before entering a position."
+      },
+      {
+        "name": "ATR",
+        "value": 3.3889735382767134,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 14.154336343987474,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When %K falls below 20, the asset is considered oversold. This means the closing price is near the lower end of its recent price range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often look for bullish reversals, especially if %K crosses above %D or bullish divergence appears. However, in strong downtrends, the oscillator can remain in this zone for extended periods."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -95.46396958308884,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -69.0259328401281,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 38.95488626474117,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 35.062637439381454,
+        "bin_name": "Medium (Developing / Moderate Trend)",
+        "market_state": "Moderate Trend Strength",
+        "description": "When ADX is between 20 and 40, a trend is developing or already established with moderate strength. This indicates increasing directional movement in price. Trend-following strategies begin to perform better in this range. Confirmation from +DI and -DI helps determine whether the trend is bullish or bearish."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -1.5635426548628215,
+        "bin_name": "Neutral / Transition",
+        "market_state": "Trend Transition / Weak Momentum",
+        "description": "When MACD is near the zero line or crossing the Signal line, the market is in a transition phase. Momentum is weakening or shifting direction. This zone often precedes a trend reversal or breakout. Traders typically wait for confirmation before committing to a directional trade."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 0,
+          "Aroon Down": 71.42857142857143
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for 21STCENMGM.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish, with multiple indicators (RSI, Stochastic Oscillator, Williams %R, Aroon) suggesting an oversold condition that may be approaching a potential reversal, but currently dominated by selling pressure.\n* **Trend Strength Evaluation:** Moderate, as indicated by the ADX, with a developing or established trend that may be subject to reversal or continuation.\n* **Momentum Assessment:** Weakening or shifting, as suggested by the MACD and Ultimate Oscillator, with a neutral to balanced momentum state that may precede a trend reversal or breakout.\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements that may be associated with strong trending phases or news events.\n* **Risk Level:** High, due to the combination of oversold conditions, moderate trend strength, and elevated volatility, which increases the potential for rapid price movements and stop-loss distances.",
+    "created_at": {
+      "$date": "2026-03-28T19:19:39.842Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829cc8ef822349217c71a"
+    },
+    "ticker": "360ONE.NS",
+    "company_name": "360 One Wam Limited",
+    "company_sector": "Financial Services",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 34.99434509912225,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 3.440076192952467,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 25.39080853380673,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -98.16274984113764,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -113.15633087812488,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold / Strong Bearish Momentum",
+        "description": "When CCI falls below -100, the asset is considered oversold. This indicates that price has moved significantly below its statistical average. Selling pressure is strong and price may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals. However, during strong downtrends, CCI can remain below -100 for extended periods, signaling sustained bearish momentum."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 47.40022237959623,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 11.1180737825229,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -12.547152116810594,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 0,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for 360ONE.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Weak, with a sideways market indicated by low ADX and strong downtrend signals from Aroon and MACD\n* **Momentum Assessment:** Neutral to bearish momentum, with some indicators (RSI, Stochastic Oscillator) suggesting trend continuation, while others (Williams %R, CCI) indicate oversold conditions\n* **Volatility Commentary:** Elevated volatility, with ATR exceeding 3% of price, suggesting large and rapid price movements\n* **Risk Level:** High, due to elevated volatility and strong bearish momentum, requiring adjusted stop-loss distances and cautious trading strategies",
+    "created_at": {
+      "$date": "2026-03-28T19:19:40.608Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829cd8ef822349217c71b"
+    },
+    "ticker": "3IINFOLTD.NS",
+    "company_name": "3i Infotech Limited",
+    "company_sector": "Technology",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 30.103706311192777,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 3.8673402100869816,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 2.8112628343417723,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When %K falls below 20, the asset is considered oversold. This means the closing price is near the lower end of its recent price range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often look for bullish reversals, especially if %K crosses above %D or bullish divergence appears. However, in strong downtrends, the oscillator can remain in this zone for extended periods."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -99.10715071319804,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -54.15310579113071,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 21.774167391388072,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When the Ultimate Oscillator falls below 30, the asset is considered oversold. This indicates strong selling pressure across multiple timeframes. The price may be undervalued in the short term, and a potential upward reversal could occur. Traders often look for bullish divergence between price and the oscillator as confirmation before entering long positions."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 13.339413464185194,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -0.4599926911950316,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 7.14285714285714,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for 3IINFOLTD.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Weak, with a strong downtrend indicated by Aroon, but ADX suggests a sideways market\n* **Momentum Assessment:** Bearish momentum is present, with multiple indicators (Stochastic Oscillator, Williams %R, Ultimate Oscillator) suggesting oversold conditions, which may lead to a potential upward reversal\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements\n* **Risk Level:** High, due to increased volatility and the need for adjusted stop-loss distances",
+    "created_at": {
+      "$date": "2026-03-28T19:19:41.483Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829ce8ef822349217c71c"
+    },
+    "ticker": "3MINDIA.NS",
+    "company_name": "3M India Limited",
+    "company_sector": "Industrials",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 53.47583800289721,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 3.3658143425250455,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 70.88467195907401,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -35.43003851091142,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When Williams %R is between -80 and -20, the market is considered to be in a neutral momentum state. Price is trading within its normal recent range without extreme buying or selling pressure. Values moving toward -20 suggest strengthening bullish momentum, while movement toward -80 suggests increasing bearish pressure. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": 104.36465164196964,
+        "bin_name": "High (Overbought Zone)",
+        "market_state": "Overbought / Strong Bullish Momentum",
+        "description": "When CCI rises above +100, the asset is considered overbought. This indicates that price has moved significantly above its statistical average, reflecting strong buying pressure. Traders may watch for potential pullbacks or bearish reversals. However, in strong uptrends, CCI can remain above +100 for extended periods, signaling sustained bullish momentum."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 52.62339946942905,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 15.7029588125293,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": 425.469932627464,
+        "bin_name": "Bullish Momentum",
+        "market_state": "Bullish Trend",
+        "description": "When the MACD line is above the Signal line and also above the zero line, the market is in bullish momentum. This indicates that short-term price movement is stronger than longterm movement and the overall trend is upward. Buyers are in control. Trend-following systems may favor long positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 0,
+          "Aroon Down": 28.57142857142857
+        },
+        "bin_name": "Neutral / Consolidation",
+        "market_state": "Sideways Market / Weak Trend",
+        "description": "When both Aroon Up and Aroon Down are below 50 or frequently crossing each other, it indicates a lack of strong directional movement. Highs and lows are not occurring consistently in one direction. The market is likely consolidating. Range-bound strategies are typically more effective in this environment."
+      }
+    ],
+    "summary": "**Market Outlook Summary for 3MINDIA.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bullish\n* **Trend Strength Evaluation:** Weak trend with sideways market tendencies\n* **Momentum Assessment:** Balanced momentum with building bullish pressure, indicated by CCI and MACD\n* **Volatility Commentary:** Elevated volatility with large and rapid price movements\n* **Risk Level:** High risk due to increased volatility, requiring adjusted stop-loss distances",
+    "created_at": {
+      "$date": "2026-03-28T19:19:42.145Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829ce8ef822349217c71d"
+    },
+    "ticker": "3PLAND.NS",
+    "company_name": "3P Land Holdings Ltd",
+    "company_sector": null,
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 27.446314490910268,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "An RSI value below 30 indicates that the asset is in the oversold zone. This means selling pressure has been strong and sustained, pushing the price down rapidly. At this level, the asset may be undervalued in the short term and could be approaching a potential reversal or bounce. However, during strong downtrends, RSI can remain below 30 for extended periods. Traders typically look for confirmation signals such as bullish divergence or support levels before entering a position."
+      },
+      {
+        "name": "ATR",
+        "value": 6.4515824771281745,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 22.39480261751436,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -90.96881406765104,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -105.99496429858702,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold / Strong Bearish Momentum",
+        "description": "When CCI falls below -100, the asset is considered oversold. This indicates that price has moved significantly below its statistical average. Selling pressure is strong and price may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals. However, during strong downtrends, CCI can remain below -100 for extended periods, signaling sustained bearish momentum."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 33.32453823690928,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 10.424607097924753,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -0.8119625177015806,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 35.71428571428571,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for 3PLAND.NS as of 2026-03-02**\n\n- **Overall Directional Bias**: Bearish\n- **Trend Strength Evaluation**: Weak, with a strong downtrend indicated by Aroon, but ADX suggests a sideways market\n- **Momentum Assessment**: Bearish momentum is present, with multiple indicators (CCI, Williams %R, MACD) suggesting selling pressure, but Ultimate Oscillator indicates balanced momentum\n- **Volatility Commentary**: Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements\n- **Risk Level**: High, due to high volatility and strong bearish momentum, with potential for rapid price movements and increased stop-loss distances",
+    "created_at": {
+      "$date": "2026-03-28T19:19:42.932Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829cf8ef822349217c71e"
+    },
+    "ticker": "5PAISA.NS",
+    "company_name": "5paisa Capital Limited",
+    "company_sector": "Financial Services",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 35.52961706303392,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 5.098867207910468,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 21.685410322570423,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -92.8229644112369,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -92.86009336369746,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 39.27375121412759,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 16.79695038358764,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -7.738260659824277,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 0,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for 5PAISA.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Weak, with a strong downtrend indicated by Aroon and bearish trend shown by MACD, but ADX suggests a sideways market\n* **Momentum Assessment:** Neutral to mildly bearish, with some indicators (RSI, Stochastic Oscillator %K, Ultimate Oscillator) suggesting balanced momentum, while others (Williams %R, MACD) indicate bearish momentum\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements\n* **Risk Level:** High, due to elevated volatility and the presence of bearish trends and momentum, requiring adjusted stop-loss distances and cautious trading strategies.",
+    "created_at": {
+      "$date": "2026-03-28T19:19:43.687Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829d08ef822349217c71f"
+    },
+    "ticker": "63MOONS.NS",
+    "company_name": "63 moons technologies limited",
+    "company_sector": "Technology",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 37.88074917001624,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 5.645025831497506,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 29.881873945357867,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -73.41039398428701,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When Williams %R is between -80 and -20, the market is considered to be in a neutral momentum state. Price is trading within its normal recent range without extreme buying or selling pressure. Values moving toward -20 suggest strengthening bullish momentum, while movement toward -80 suggests increasing bearish pressure. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -47.26060578402171,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 39.78388590782676,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 20.261964078069244,
+        "bin_name": "Medium (Developing / Moderate Trend)",
+        "market_state": "Moderate Trend Strength",
+        "description": "When ADX is between 20 and 40, a trend is developing or already established with moderate strength. This indicates increasing directional movement in price. Trend-following strategies begin to perform better in this range. Confirmation from +DI and -DI helps determine whether the trend is bullish or bearish."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -19.934413048223632,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 7.14285714285714,
+          "Aroon Down": 71.42857142857143
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for 63MOONS.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish, as indicated by the MACD and Aroon indicators suggesting sellers are in control.\n* **Trend Strength Evaluation:** Moderate, with ADX between 20 and 40, indicating a developing or established trend with increasing directional movement.\n* **Momentum Assessment:** Neutral to mildly bearish, with most indicators (RSI, Stochastic Oscillator, Williams %R, CCI, and Ultimate Oscillator) suggesting balanced momentum, but with a slight bearish leaning.\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements, creating opportunity but also increasing risk.\n* **Risk Level:** High, due to the combination of bearish trend, moderate trend strength, and elevated volatility, necessitating adjusted stop-loss distances and cautious trading strategies.",
+    "created_at": {
+      "$date": "2026-03-28T19:19:44.405Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829d18ef822349217c720"
+    },
+    "ticker": "A2ZINFRA.NS",
+    "company_name": "A2Z Infra Engineering Limited",
+    "company_sector": "Industrials",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 59.88698666516735,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 5.835338132184816,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 74.50870934041887,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -44.17671774824111,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When Williams %R is between -80 and -20, the market is considered to be in a neutral momentum state. Price is trading within its normal recent range without extreme buying or selling pressure. Values moving toward -20 suggest strengthening bullish momentum, while movement toward -80 suggests increasing bearish pressure. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -48.11356418721089,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 60.31761058606891,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 24.53335257605872,
+        "bin_name": "Medium (Developing / Moderate Trend)",
+        "market_state": "Moderate Trend Strength",
+        "description": "When ADX is between 20 and 40, a trend is developing or already established with moderate strength. This indicates increasing directional movement in price. Trend-following strategies begin to perform better in this range. Confirmation from +DI and -DI helps determine whether the trend is bullish or bearish."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": 0.7109296181463041,
+        "bin_name": "Bullish Momentum",
+        "market_state": "Bullish Trend",
+        "description": "When the MACD line is above the Signal line and also above the zero line, the market is in bullish momentum. This indicates that short-term price movement is stronger than longterm movement and the overall trend is upward. Buyers are in control. Trend-following systems may favor long positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 92.85714285714286,
+          "Aroon Down": 0
+        },
+        "bin_name": "Bullish Trend",
+        "market_state": "Strong Uptrend",
+        "description": "When Aroon Up is significantly higher than Aroon Down and above 70, it indicates that new highs are occurring frequently while new lows are not. This suggests a strong bullish trend. Buyers are dominating the market. Trend-following systems may favor long positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for A2ZINFRA.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bullish, supported by indicators such as MACD, Aroon, and Ultimate Oscillator.\n* **Trend Strength Evaluation:** Moderate, with ADX indicating a developing trend and increasing directional movement in price.\n* **Momentum Assessment:** Neutral to building bullish momentum, as indicated by RSI, Stochastic Oscillator %K, Williams %R, and CCI.\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, suggesting large and rapid price movements.\n* **Risk Level:** High, due to increased volatility, requiring adjusted stop-loss distances to manage potential losses.",
+    "created_at": {
+      "$date": "2026-03-28T19:19:45.025Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829d28ef822349217c721"
+    },
+    "ticker": "AAATECH.NS",
+    "company_name": "AAA Technologies Limited",
+    "company_sector": "Technology",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 43.5384055567331,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 5.5100306466199065,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 20.1267948776751,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -88.82679377931252,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -92.84283804113504,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 48.15844775402272,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 13.095714091127348,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -0.1694051507696627,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 21.42857142857143,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for AAATECH.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Weak, with a strong downtrend indicated by Aroon and bearish trend shown by MACD, but ADX suggests a sideways market\n* **Momentum Assessment:** Neutral to mildly bearish, with some indicators (RSI, Stochastic Oscillator %K, Ultimate Oscillator) suggesting balanced momentum, while others (Williams %R, MACD) indicate bearish momentum\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements\n* **Risk Level:** High, due to elevated volatility and strong downtrend, requiring adjusted stop-loss distances and careful risk management",
+    "created_at": {
+      "$date": "2026-03-28T19:19:46.087Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829d28ef822349217c722"
+    },
+    "ticker": "AADHARHFC.NS",
+    "company_name": "AADHAR HOUSING FINANCE L",
+    "company_sector": "Financial Services",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 39.20472846673954,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 3.4123836777483056,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 54.62108051325898,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -65.69340870652847,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When Williams %R is between -80 and -20, the market is considered to be in a neutral momentum state. Price is trading within its normal recent range without extreme buying or selling pressure. Values moving toward -20 suggest strengthening bullish momentum, while movement toward -80 suggests increasing bearish pressure. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -70.12585637349352,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 49.978099761701344,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 20.874899373120567,
+        "bin_name": "Medium (Developing / Moderate Trend)",
+        "market_state": "Moderate Trend Strength",
+        "description": "When ADX is between 20 and 40, a trend is developing or already established with moderate strength. This indicates increasing directional movement in price. Trend-following strategies begin to perform better in this range. Confirmation from +DI and -DI helps determine whether the trend is bullish or bearish."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -4.943095518680877,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 64.28571428571428,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for AADHARHFC.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Moderate\n* **Momentum Assessment:** Neutral with a bearish undertone\n* **Volatility Commentary:** Elevated, with large and rapid price movements\n* **Risk Level:** High, requiring adjusted stop-loss distances due to strong movement and potential for significant price swings.",
+    "created_at": {
+      "$date": "2026-03-28T19:19:46.831Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829d68ef822349217c723"
+    },
+    "ticker": "AAKASH.NS",
+    "company_name": "Aakash Exploration Services Limited",
+    "company_sector": "Energy",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 48.39070454966538,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 7.259734326370046,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 47.8789832546068,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -60.10640065235394,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When Williams %R is between -80 and -20, the market is considered to be in a neutral momentum state. Price is trading within its normal recent range without extreme buying or selling pressure. Values moving toward -20 suggest strengthening bullish momentum, while movement toward -80 suggests increasing bearish pressure. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -38.13601452650174,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 49.00430215732391,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 18.618312964671293,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": 0.059346118270632,
+        "bin_name": "Bullish Momentum",
+        "market_state": "Bullish Trend",
+        "description": "When the MACD line is above the Signal line and also above the zero line, the market is in bullish momentum. This indicates that short-term price movement is stronger than longterm movement and the overall trend is upward. Buyers are in control. Trend-following systems may favor long positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 71.42857142857143,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for AAKASH.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bullish, as indicated by the MACD, despite conflicting signals from other indicators.\n* **Trend Strength Evaluation:** Weak, with ADX below 20, suggesting a sideways market with little trend.\n* **Momentum Assessment:** Neutral, with most indicators (RSI, Stochastic Oscillator, Williams %R, CCI, Ultimate Oscillator) suggesting balanced momentum, while Aroon indicates a strong downtrend.\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements.\n* **Risk Level:** High, due to the combination of high volatility and conflicting indicator signals, requiring careful stop-loss management and risk adjustment.",
+    "created_at": {
+      "$date": "2026-03-28T19:19:50.024Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829d68ef822349217c724"
+    },
+    "ticker": "AAREYDRUGS.NS",
+    "company_name": "Aarey Drugs & Pharmaceuticals Limited",
+    "company_sector": "Healthcare",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 50.3857741378,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 6.926979616457693,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 52.0077640101707,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -66.23376490260138,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When Williams %R is between -80 and -20, the market is considered to be in a neutral momentum state. Price is trading within its normal recent range without extreme buying or selling pressure. Values moving toward -20 suggest strengthening bullish momentum, while movement toward -80 suggests increasing bearish pressure. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -42.41105445080065,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 53.340943910203166,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 19.187996635199177,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": 2.008734636974708,
+        "bin_name": "Bullish Momentum",
+        "market_state": "Bullish Trend",
+        "description": "When the MACD line is above the Signal line and also above the zero line, the market is in bullish momentum. This indicates that short-term price movement is stronger than longterm movement and the overall trend is upward. Buyers are in control. Trend-following systems may favor long positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 64.28571428571428,
+          "Aroon Down": 28.57142857142857
+        },
+        "bin_name": "Neutral / Consolidation",
+        "market_state": "Sideways Market / Weak Trend",
+        "description": "When both Aroon Up and Aroon Down are below 50 or frequently crossing each other, it indicates a lack of strong directional movement. Highs and lows are not occurring consistently in one direction. The market is likely consolidating. Range-bound strategies are typically more effective in this environment."
+      }
+    ],
+    "summary": "**Market Outlook Summary for AAREYDRUGS.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bullish, as indicated by the MACD line being above the Signal line and the zero line.\n* **Trend Strength Evaluation:** Weak, with ADX below 20, suggesting a sideways market, and Aroon indicating a lack of strong directional movement.\n* **Momentum Assessment:** Neutral, with most indicators (RSI, Stochastic Oscillator, Williams %R, CCI, and Ultimate Oscillator) suggesting balanced momentum and trend continuation.\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements.\n* **Risk Level:** High, due to increased volatility, requiring adjusted stop-loss distances to manage potential losses.",
+    "created_at": {
+      "$date": "2026-03-28T19:19:50.741Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829d88ef822349217c725"
+    },
+    "ticker": "AARON.NS",
+    "company_name": "Aaron Industries Limited",
+    "company_sector": "Industrials",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 35.1586959471262,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 4.125848390259355,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 34.05075429604283,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -79.7374019865135,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When Williams %R is between -80 and -20, the market is considered to be in a neutral momentum state. Price is trading within its normal recent range without extreme buying or selling pressure. Values moving toward -20 suggest strengthening bullish momentum, while movement toward -80 suggests increasing bearish pressure. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -115.53984484896596,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold / Strong Bearish Momentum",
+        "description": "When CCI falls below -100, the asset is considered oversold. This indicates that price has moved significantly below its statistical average. Selling pressure is strong and price may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals. However, during strong downtrends, CCI can remain below -100 for extended periods, signaling sustained bearish momentum."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 30.139792511775767,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 13.103727971945917,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -1.260699644217624,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 57.14285714285714,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for AARON.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Weak, with a strong downtrend indicated by Aroon, but ADX suggests a sideways market\n* **Momentum Assessment:** Mixed, with some indicators (RSI, Stochastic Oscillator, Williams %R, Ultimate Oscillator) suggesting neutral or trend continuation momentum, while others (CCI, MACD, Aroon) indicate strong bearish momentum\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements\n* **Risk Level:** High, due to high volatility and strong bearish momentum, requiring adjusted stop-loss distances and cautious trading strategies",
+    "created_at": {
+      "$date": "2026-03-28T19:19:52.732Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829dd8ef822349217c726"
+    },
+    "ticker": "AARTECH.NS",
+    "company_name": "Aartech Solonics Limited",
+    "company_sector": "Industrials",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 30.219643152130867,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 5.894132835026529,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 5.056273597704873,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When %K falls below 20, the asset is considered oversold. This means the closing price is near the lower end of its recent price range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often look for bullish reversals, especially if %K crosses above %D or bullish divergence appears. However, in strong downtrends, the oscillator can remain in this zone for extended periods."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -90.9090909090909,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -64.23186358930063,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 24.44435441769918,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When the Ultimate Oscillator falls below 30, the asset is considered oversold. This indicates strong selling pressure across multiple timeframes. The price may be undervalued in the short term, and a potential upward reversal could occur. Traders often look for bullish divergence between price and the oscillator as confirmation before entering long positions."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 15.526003898123513,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -1.6121234251138574,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 7.14285714285714,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for AARTECH.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Weak, with a strong downtrend indicated by Aroon, but ADX suggests a sideways market\n* **Momentum Assessment:** Bearish momentum is present, with multiple indicators (Stochastic Oscillator, Williams %R, Ultimate Oscillator) suggesting oversold conditions, while RSI indicates a neutral to bearish momentum\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements\n* **Risk Level:** High, due to increased volatility and the potential for rapid price movements, requiring adjusted stop-loss distances",
+    "created_at": {
+      "$date": "2026-03-28T19:19:57.778Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829e28ef822349217c727"
+    },
+    "ticker": "AARTIDRUGS.NS",
+    "company_name": "Aarti Drugs Limited",
+    "company_sector": "Healthcare",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 29.673097407652666,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "An RSI value below 30 indicates that the asset is in the oversold zone. This means selling pressure has been strong and sustained, pushing the price down rapidly. At this level, the asset may be undervalued in the short term and could be approaching a potential reversal or bounce. However, during strong downtrends, RSI can remain below 30 for extended periods. Traders typically look for confirmation signals such as bullish divergence or support levels before entering a position."
+      },
+      {
+        "name": "ATR",
+        "value": 2.670244900784128,
+        "bin_name": "Moderate Volatility",
+        "market_state": "Normal Market Conditions",
+        "description": "When ATR is between 1% and 3% of price, the asset is experiencing normal volatility. Price swings are healthy but not extreme. This is considered a stable environment for trend-following strategies and structured risk management."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 14.314290620292187,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When %K falls below 20, the asset is considered oversold. This means the closing price is near the lower end of its recent price range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often look for bullish reversals, especially if %K crosses above %D or bullish divergence appears. However, in strong downtrends, the oscillator can remain in this zone for extended periods."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -80.80134338426048,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -143.1801863196122,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold / Strong Bearish Momentum",
+        "description": "When CCI falls below -100, the asset is considered oversold. This indicates that price has moved significantly below its statistical average. Selling pressure is strong and price may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals. However, during strong downtrends, CCI can remain below -100 for extended periods, signaling sustained bearish momentum."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 43.02594420333766,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 17.229576438715874,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -5.605012844007831,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 0,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for AARTIDRUGS.NS as of 2026-03-02**\n\n- **Overall Directional Bias**: Bearish\n- **Trend Strength Evaluation**: Weak, with a strong downtrend indicated by Aroon, but ADX suggests a sideways market\n- **Momentum Assessment**: Bearish momentum prevails, with MACD and CCI indicating selling pressure, while Ultimate Oscillator suggests balanced momentum\n- **Volatility Commentary**: Normal market conditions, with ATR indicating healthy but not extreme price swings\n- **Risk Level**: High, due to oversold conditions and potential for sharp reversals, combined with bearish trend indicators",
+    "created_at": {
+      "$date": "2026-03-28T19:20:02.745Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829eb8ef822349217c728"
+    },
+    "ticker": "AARTIIND.NS",
+    "company_name": "Aarti Industries Limited",
+    "company_sector": "Basic Materials",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 50.20659695901883,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 3.586782559501736,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 35.13803018066398,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -71.11109980830439,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When Williams %R is between -80 and -20, the market is considered to be in a neutral momentum state. Price is trading within its normal recent range without extreme buying or selling pressure. Values moving toward -20 suggest strengthening bullish momentum, while movement toward -80 suggests increasing bearish pressure. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -89.70185431544773,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 48.888264290042976,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 34.22413231299419,
+        "bin_name": "Medium (Developing / Moderate Trend)",
+        "market_state": "Moderate Trend Strength",
+        "description": "When ADX is between 20 and 40, a trend is developing or already established with moderate strength. This indicates increasing directional movement in price. Trend-following strategies begin to perform better in this range. Confirmation from +DI and -DI helps determine whether the trend is bullish or bearish."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": 14.145702798834463,
+        "bin_name": "Neutral / Transition",
+        "market_state": "Trend Transition / Weak Momentum",
+        "description": "When MACD is near the zero line or crossing the Signal line, the market is in a transition phase. Momentum is weakening or shifting direction. This zone often precedes a trend reversal or breakout. Traders typically wait for confirmation before committing to a directional trade."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 0,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for AARTIIND.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Neutral with a potential bearish undertone, as indicated by the Aroon's strong downtrend signal.\n* **Trend Strength Evaluation:** Moderate, with ADX suggesting a developing or established trend.\n* **Momentum Assessment:** Balanced, with most indicators (RSI, Stochastic Oscillator, Williams %R, CCI, and Ultimate Oscillator) suggesting neutral or trend continuation momentum, while MACD indicates a trend transition phase.\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements.\n* **Risk Level:** High, due to increased volatility and the need for adjusted stop-loss distances, despite the overall neutral momentum state.",
+    "created_at": {
+      "$date": "2026-03-28T19:20:11.838Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829ed8ef822349217c729"
+    },
+    "ticker": "AARTIPHARM.NS",
+    "company_name": "Aarti Pharmalabs Limited",
+    "company_sector": "Healthcare",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 41.34046133228104,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 3.7573501855424416,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 33.5449172338292,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -74.01693551719192,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When Williams %R is between -80 and -20, the market is considered to be in a neutral momentum state. Price is trading within its normal recent range without extreme buying or selling pressure. Values moving toward -20 suggest strengthening bullish momentum, while movement toward -80 suggests increasing bearish pressure. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -33.2525719064648,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 50.62461040496479,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 17.30110259119296,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -14.469481550382625,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 0,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for AARTIPHARM.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Weak, with a sideways market indicated by low ADX, but strong downtrend suggested by Aroon\n* **Momentum Assessment:** Neutral to bearish, with most indicators suggesting balanced momentum, but MACD and Aroon indicating bearish control\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements\n* **Risk Level:** High, due to increased volatility and potential for rapid price movements, requiring adjusted stop-loss distances",
+    "created_at": {
+      "$date": "2026-03-28T19:20:13.868Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829f18ef822349217c72a"
+    },
+    "ticker": "AARTISURF.NS",
+    "company_name": "Aarti Surfactants Limited",
+    "company_sector": "Basic Materials",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 39.34240489696509,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 4.1657578733923835,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 6.991038817040691,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When %K falls below 20, the asset is considered oversold. This means the closing price is near the lower end of its recent price range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often look for bullish reversals, especially if %K crosses above %D or bullish divergence appears. However, in strong downtrends, the oscillator can remain in this zone for extended periods."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -93.49261469358984,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -58.08094459692452,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 33.284242182444466,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 22.616235272928478,
+        "bin_name": "Medium (Developing / Moderate Trend)",
+        "market_state": "Moderate Trend Strength",
+        "description": "When ADX is between 20 and 40, a trend is developing or already established with moderate strength. This indicates increasing directional movement in price. Trend-following strategies begin to perform better in this range. Confirmation from +DI and -DI helps determine whether the trend is bullish or bearish."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -3.192075732038461,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 0,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for AARTISURF.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Moderate (established trend with increasing directional movement)\n* **Momentum Assessment:** Neutral to bearish (balanced momentum with signs of weakening bullish momentum)\n* **Volatility Commentary:** Elevated (large and rapid price movements)\n* **Risk Level:** High (increased risk due to high volatility, requiring adjusted stop-loss distances)",
+    "created_at": {
+      "$date": "2026-03-28T19:20:17.951Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829f78ef822349217c72b"
+    },
+    "ticker": "AARVI.NS",
+    "company_name": "Aarvi Encon Limited",
+    "company_sector": "Industrials",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 40.35123354999096,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 5.053578722137549,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 30.505090260273068,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -90.80860031032414,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -99.97481070300734,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 34.08065404408779,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 24.872450558747133,
+        "bin_name": "Medium (Developing / Moderate Trend)",
+        "market_state": "Moderate Trend Strength",
+        "description": "When ADX is between 20 and 40, a trend is developing or already established with moderate strength. This indicates increasing directional movement in price. Trend-following strategies begin to perform better in this range. Confirmation from +DI and -DI helps determine whether the trend is bullish or bearish."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -0.2925190857108788,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 28.57142857142857,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for AARVI.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Moderate\n* **Momentum Assessment:** Neutral to bearish, with potential for bullish reversal\n* **Volatility Commentary:** Elevated, with large and rapid price movements\n* **Risk Level:** High, requiring adjusted stop-loss distances",
+    "created_at": {
+      "$date": "2026-03-28T19:20:23.783Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829fb8ef822349217c72c"
+    },
+    "ticker": "AAVAS.NS",
+    "company_name": "Aavas Financiers Limited",
+    "company_sector": "Financial Services",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 28.074495350930672,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "An RSI value below 30 indicates that the asset is in the oversold zone. This means selling pressure has been strong and sustained, pushing the price down rapidly. At this level, the asset may be undervalued in the short term and could be approaching a potential reversal or bounce. However, during strong downtrends, RSI can remain below 30 for extended periods. Traders typically look for confirmation signals such as bullish divergence or support levels before entering a position."
+      },
+      {
+        "name": "ATR",
+        "value": 3.2486258799936123,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 29.28793772454764,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -89.18083666259452,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -31.183957874392178,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 52.76671449207005,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 29.07380001577015,
+        "bin_name": "Medium (Developing / Moderate Trend)",
+        "market_state": "Moderate Trend Strength",
+        "description": "When ADX is between 20 and 40, a trend is developing or already established with moderate strength. This indicates increasing directional movement in price. Trend-following strategies begin to perform better in this range. Confirmation from +DI and -DI helps determine whether the trend is bullish or bearish."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -42.05883410663478,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 0,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for AAVAS.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Moderate\n* **Momentum Assessment:** Neutral to bearish, with potential for reversal\n* **Volatility Commentary:** Elevated, with large and rapid price movements\n* **Risk Level:** High, due to strong downtrend and high volatility",
+    "created_at": {
+      "$date": "2026-03-28T19:20:27.897Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c82a008ef822349217c72d"
+    },
+    "ticker": "ABAN.NS",
+    "company_name": "Aban Offshore Limited",
+    "company_sector": "Energy",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 31.496919965617487,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 5.202141270857892,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 20.537381837626132,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -87.24035020496919,
+        "bin_name": "Low (Oversold Zone)",
+        "market_state": "Oversold",
+        "description": "When Williams %R falls below -80, the asset is considered oversold. This means the closing price is near the lowest point of its recent trading range. Selling pressure has been strong, and the asset may be undervalued in the short term. Traders often monitor this zone for potential bullish reversals, especially if upward momentum or divergence appears. However, during strong downtrends, the indicator can remain in this zone for extended periods."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": -84.26531086747353,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 36.02892647232986,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 26.39355918132658,
+        "bin_name": "Medium (Developing / Moderate Trend)",
+        "market_state": "Moderate Trend Strength",
+        "description": "When ADX is between 20 and 40, a trend is developing or already established with moderate strength. This indicates increasing directional movement in price. Trend-following strategies begin to perform better in this range. Confirmation from +DI and -DI helps determine whether the trend is bullish or bearish."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -0.6117919039137014,
+        "bin_name": "Bearish Momentum",
+        "market_state": "Bearish Trend",
+        "description": "When the MACD line is below the Signal line and also below the zero line, the market is in bearish momentum. This indicates that short-term price movement is weaker than longterm movement and the overall trend is downward. Sellers are in control. Trend-following systems may favor short positions in this zone."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 14.28571428571429,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for ABAN.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Bearish\n* **Trend Strength Evaluation:** Moderate\n* **Momentum Assessment:** Neutral with bearish undertones, as indicated by the MACD and Aroon indicators\n* **Volatility Commentary:** Elevated, with large and rapid price movements\n* **Risk Level:** High, due to increased volatility and strong downtrend signals",
+    "created_at": {
+      "$date": "2026-03-28T19:20:32.062Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c82a058ef822349217c72e"
+    },
+    "ticker": "ABB.NS",
+    "company_name": "ABB India Limited",
+    "company_sector": "Industrials",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 57.30232656100586,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 3.0538182304422206,
+        "bin_name": "High Volatility",
+        "market_state": "High Risk / Strong Movement",
+        "description": "When ATR exceeds 3% of price, volatility is elevated. Price movements are large and rapid. This may occur during earnings releases, news events, or strong trending phases. While high volatility creates opportunity, it also increases risk and stop-loss distances must be adjusted accordingly."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 62.58318209316394,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -60.3448275862069,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When Williams %R is between -80 and -20, the market is considered to be in a neutral momentum state. Price is trading within its normal recent range without extreme buying or selling pressure. Values moving toward -20 suggest strengthening bullish momentum, while movement toward -80 suggests increasing bearish pressure. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": 44.938327872798666,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 52.92879810622973,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 41.08173877549925,
+        "bin_name": "High (Strong Trend)",
+        "market_state": "Strong Trend",
+        "description": "When ADX rises above 40, the market is in a strong trend. This indicates sustained directional movement with strong momentum. The trend can be either upward or downward, depending on whether +DI is above -DI or vice versa. Pullbacks may occur, but overall trend strength remains high."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": 195.0097946738897,
+        "bin_name": "Neutral / Transition",
+        "market_state": "Trend Transition / Weak Momentum",
+        "description": "When MACD is near the zero line or crossing the Signal line, the market is in a transition phase. Momentum is weakening or shifting direction. This zone often precedes a trend reversal or breakout. Traders typically wait for confirmation before committing to a directional trade."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 57.14285714285714,
+          "Aroon Down": 50
+        },
+        "bin_name": "Neutral / Consolidation",
+        "market_state": "Sideways Market / Weak Trend",
+        "description": "When both Aroon Up and Aroon Down are below 50 or frequently crossing each other, it indicates a lack of strong directional movement. Highs and lows are not occurring consistently in one direction. The market is likely consolidating. Range-bound strategies are typically more effective in this environment."
+      }
+    ],
+    "summary": "**Market Outlook Summary for ABB.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Neutral, with a slight inclination towards trend continuation.\n* **Trend Strength Evaluation:** Strong, as indicated by the ADX rising above 40, suggesting sustained directional movement.\n* **Momentum Assessment:** Balanced, with most indicators suggesting neutral momentum and trend continuation, although the MACD indicates a potential trend transition.\n* **Volatility Commentary:** Elevated, with ATR exceeding 3% of price, indicating large and rapid price movements.\n* **Risk Level:** High, due to increased volatility and the need for adjusted stop-loss distances, despite the overall strong trend.",
+    "created_at": {
+      "$date": "2026-03-28T19:20:37.488Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c82a098ef822349217c72f"
+    },
+    "ticker": "ABBOTINDIA.NS",
+    "company_name": "Abbott India Limited",
+    "company_sector": "Healthcare",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 48.73632020845463,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trending",
+        "description": "An RSI value between 30 and 70 indicates balanced market momentum. In this zone, neither buyers nor sellers are in extreme control. When RSI is between 30 and 50, bearish momentum may still be present but weakening. When RSI is between 50 and 70, bullish momentum is building. This range is typically associated with trend continuation rather than reversal signals. Most price movement happens within this neutral band."
+      },
+      {
+        "name": "ATR",
+        "value": 1.8904282753668666,
+        "bin_name": "Moderate Volatility",
+        "market_state": "Normal Market Conditions",
+        "description": "When ATR is between 1% and 3% of price, the asset is experiencing normal volatility. Price swings are healthy but not extreme. This is considered a stable environment for trend-following strategies and structured risk management."
+      },
+      {
+        "name": "Stochastic Oscillator %K",
+        "value": 33.48641304347826,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When %K is between 20 and 80, the market is considered to be in a neutral momentum zone. Price is trading within its normal range. Values between 50 and 80 typically indicate building bullish momentum, while values between 20 and 50 suggest mild bearish momentum. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "Stochastic RSI",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Williams %R",
+        "value": -43.47826086956522,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral / Trend Continuation",
+        "description": "When Williams %R is between -80 and -20, the market is considered to be in a neutral momentum state. Price is trading within its normal recent range without extreme buying or selling pressure. Values moving toward -20 suggest strengthening bullish momentum, while movement toward -80 suggests increasing bearish pressure. This range is often associated with trend continuation rather than immediate reversal."
+      },
+      {
+        "name": "CCI (Commodity Channel Index)",
+        "value": 81.75563664539281,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Normal Momentum / Range-Bound",
+        "description": "When CCI is between -100 and +100, price is considered to be trading within its normal statistical range. This suggests balanced momentum without extreme buying or selling pressure. Values moving toward +100 indicate strengthening bullish momentum, while movement toward -100 suggests increasing bearish pressure. This zone is often associated with consolidation or steady trend continuation."
+      },
+      {
+        "name": "MFI (Money Flow Index)",
+        "value": null,
+        "bin_name": "No Bin Found",
+        "market_state": "No Data",
+        "description": "No description found."
+      },
+      {
+        "name": "Ultimate Oscillator",
+        "value": 58.67813532690009,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Balanced Momentum",
+        "description": "When the Ultimate Oscillator is between 30 and 70, the market is considered to be in a neutral momentum state. There is no extreme buying or selling pressure across timeframes. Movement toward 70 suggests strengthening bullish momentum, while movement toward 30 indicates increasing bearish pressure. This zone is typically associated with trend continuation or consolidation."
+      },
+      {
+        "name": "ADX (Average Directional Index)",
+        "value": 17.589845703901613,
+        "bin_name": "Low (Weak / No Trend)",
+        "market_state": "Weak Trend / Sideways Market",
+        "description": "When ADX is below 20, the market is considered to have little or no trend. Price is typically moving sideways or consolidating. Trend-following strategies may produce false signals in this zone. Range-bound strategies are generally more effective when ADX is low."
+      },
+      {
+        "name": "MACD (Moving Average Convergence Divergence)",
+        "value": -294.91731440940566,
+        "bin_name": "Neutral / Transition",
+        "market_state": "Trend Transition / Weak Momentum",
+        "description": "When MACD is near the zero line or crossing the Signal line, the market is in a transition phase. Momentum is weakening or shifting direction. This zone often precedes a trend reversal or breakout. Traders typically wait for confirmation before committing to a directional trade."
+      },
+      {
+        "name": "Aroon",
+        "value": {
+          "Aroon Up": 0,
+          "Aroon Down": 100
+        },
+        "bin_name": "Bearish Trend",
+        "market_state": "Strong Downtrend",
+        "description": "When Aroon Down is significantly higher than Aroon Up and above 70, it indicates that recent lows are occurring frequently while new highs are not. This suggests a strong bearish trend. Sellers are dominating the market. Trend-following systems may favor short positions in this condition."
+      }
+    ],
+    "summary": "**Market Outlook Summary for ABBOTINDIA.NS (2026-03-02)**\n\n* **Overall Directional Bias:** Neutral with a slight bearish undertone, as indicated by the Aroon's strong downtrend signal.\n* **Trend Strength Evaluation:** Weak, as suggested by the ADX reading below 20, indicating a sideways market with little trend direction.\n* **Momentum Assessment:** Balanced, with most indicators (RSI, Stochastic Oscillator, Williams %R, CCI, and Ultimate Oscillator) suggesting a neutral momentum state, while the MACD indicates a trend transition phase.\n* **Volatility Commentary:** Normal, with the ATR indicating healthy but not extreme price swings, suitable for trend-following strategies and structured risk management.\n* **Risk Level:** Moderate, due to the conflicting signals between indicators, requiring cautious trading decisions and confirmation before committing to a directional trade.",
+    "created_at": {
+      "$date": "2026-03-28T19:20:41.707Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69c829d18ef822349217c721"
+    },
+    "ticker": "ABCAPITAL.NS",
+    "company_name": "Aditya Birla Capital Limited",
+    "company_sector": "Financial Services",
+    "date": "2026-03-02",
+    "indicators": [
+      {
+        "name": "RSI",
+        "value": 42.5,
+        "bin_name": "Medium (Neutral Zone)",
+        "market_state": "Neutral",
+        "description": "RSI is in the neutral zone, suggesting balanced momentum."
+      },
+      {
+        "name": "ATR",
+        "value": 2.1,
+        "bin_name": "Moderate Volatility",
+        "market_state": "Normal",
+        "description": "Normal market volatility detected."
+      },
+      {
+        "name": "MACD",
+        "value": -0.5,
+        "bin_name": "Neutral",
+        "market_state": "Consolidation",
+        "description": "MACD suggests a period of consolidation."
+      }
+    ],
+    "summary": "ABCAPITAL is currently in a consolidation phase with neutral momentum across core indicators. Volatility remains within institutional norms.",
+    "created_at": {
+      "$date": "2026-03-28T19:21:00.000Z"
+    }
+  }
+]

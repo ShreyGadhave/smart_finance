@@ -10,6 +10,7 @@ from config import (
     SUPABASE_KEY,
     SUPABASE_TABLE,
     SUPABASE_URL,
+    DEFAULT_USER_ID,
 )
 from main import run_pipeline
 from portfolio_optimizer import optimize_portfolio
@@ -56,6 +57,7 @@ class ComplianceRequest(BaseModel):
 class ChatRequest(BaseModel):
     message: str
     run_id: int | None = None # context for a specific run
+    ticker: str | None = None # context for a specific ticker
 
 
 # ── Helpers ─────────────────────────────────────────────────────────
@@ -106,17 +108,30 @@ async def api_chat(
 
     if req.run_id:
         res = client.table(SUPABASE_TABLE).select("*").eq("id", req.run_id).eq("user_id", user_id).limit(1).execute()
-        if res.data:
-            run = res.data[0]
-            ticker = run.get("ticker")
-            payload = run.get("payload", {})
-            context = {
-                "ticker": ticker,
-                "overall_sentiment": run.get("overall_sentiment"),
-                "risk_metrics": payload.get("risk_assessment", {}).get("metrics"),
-                "research_summary": payload.get("research_report", "")[:1000],
-                "customer_analysis": payload.get("customer_analysis", {}).get("explanation"),
-            }
+    elif req.ticker:
+        # Get the most recent successful run for this ticker
+        res = (
+            client.table(SUPABASE_TABLE)
+            .select("*")
+            .eq("ticker", req.ticker.upper())
+            .or_(f"user_id.eq.{user_id},user_id.is.null{f',user_id.eq.{DEFAULT_USER_ID}' if DEFAULT_USER_ID else ''}")
+            .eq("status", "completed")
+            .order("created_at", desc=True)
+            .limit(1)
+            .execute()
+        )
+
+    if res.data:
+        run = res.data[0]
+        ticker = run.get("ticker")
+        payload = run.get("payload", {})
+        context = {
+            "ticker": ticker,
+            "overall_sentiment": run.get("overall_sentiment"),
+            "risk_metrics": payload.get("risk_assessment", {}).get("metrics"),
+            "research_summary": payload.get("research_report", "")[:1000],
+            "customer_analysis": payload.get("customer_analysis", {}).get("explanation"),
+        }
 
     analysis = get_groq_analysis(prompt=req.message, context=context)
     return {"ok": True, "response": analysis}
@@ -211,6 +226,32 @@ def api_get_run_articles(
     }
 
 
+@app.get("/api/pipeline/latest/{ticker}")
+def api_get_latest_run(
+    ticker: str,
+    user_id: str = Depends(_current_user_id),
+) -> dict[str, Any]:
+    client = _supabase_client()
+    try:
+        response = (
+            client.table(SUPABASE_TABLE)
+            .select("*")
+            .eq("ticker", ticker.upper())
+            .or_(f"user_id.eq.{user_id},user_id.is.null{f',user_id.eq.{DEFAULT_USER_ID}' if DEFAULT_USER_ID else ''}")
+            .order("created_at", desc=True)
+            .limit(1)
+            .execute()
+        )
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Latest run fetch failed: {exc}") from exc
+
+    data = response.data or []
+    if not data:
+        return {"ok": False, "message": "No runs found for this ticker"}
+
+    return {"ok": True, "run": data[0]}
+
+
 # ── Portfolio Endpoints ─────────────────────────────────────────────
 @app.post("/api/portfolio")
 def api_optimize_portfolio(
@@ -249,19 +290,81 @@ def api_assess_risk(
         ) from exc
 
 
+# ── Fundamental Analysis Endpoints ────────────────────────────────────
+@app.get("/api/fundamental/{ticker}")
+def api_get_fundamental(
+    ticker: str,
+    user_id: str = Depends(_current_user_id),
+) -> dict[str, Any]:
+    client = _supabase_client()
+    try:
+        res = (
+            client.table(SUPABASE_TABLE)
+            .select("*")
+            .eq("ticker", ticker.upper())
+            .or_(f"user_id.eq.{user_id},user_id.is.null{f',user_id.eq.{DEFAULT_USER_ID}' if DEFAULT_USER_ID else ''}")
+            .order("created_at", desc=True)
+            .execute()
+        )
+        for run in (res.data or []):
+            if "fundamentals" in run.get("payload", {}):
+                payload = run["payload"]
+                return {
+                    "ok": True,
+                    "result": {
+                        "ticker": ticker,
+                        "company_name": payload.get("company_name", run.get("ticker")),
+                        "company_sector": payload.get("company_sector", "Financial Hub"),
+                        "date": run.get("created_at")[:10],
+                        "fundamentals": payload.get("fundamentals", []),
+                        "ai_summary": payload.get("ai_summary", ""),
+                        "payload": payload # include full payload for other keys like research_report
+                    }
+                }
+        
+        # If no dedicated record found, return something indicative
+        return {"ok": False, "message": f"No fundamental node indexed for {ticker}"}
+    except Exception as exc:
+        print(f"⚠️ Db Fundamental check failed: {exc}")
+        raise HTTPException(status_code=500, detail=str(exc))
+
+
 # ── Technical Analysis Endpoints ────────────────────────────────────
 @app.get("/api/technical/{ticker}")
 def api_get_technical(
     ticker: str,
     user_id: str = Depends(_current_user_id),
 ) -> dict[str, Any]:
+    client = _supabase_client()
     try:
+        res = (
+            client.table(SUPABASE_TABLE)
+            .select("*")
+            .eq("ticker", ticker.upper())
+            .or_(f"user_id.eq.{user_id},user_id.is.null{f',user_id.eq.{DEFAULT_USER_ID}' if DEFAULT_USER_ID else ''}")
+            .order("created_at", desc=True)
+            .execute()
+        )
+        for run in (res.data or []):
+            if "tech_indicators" in run.get("payload", {}):
+                payload = run["payload"]
+                return {
+                    "ok": True,
+                    "result": {
+                        "ticker": ticker,
+                        "company_name": run.get("payload", {}).get("company_name", f"{ticker} node"),
+                        "company_sector": run.get("payload", {}).get("company_sector", "Institutional Sync"),
+                        "date": run.get("created_at")[:10],
+                        "indicators": payload["tech_indicators"],
+                        "summary": payload.get("summary", "Technical state normal.")
+                    }
+                }
+
         result = get_technical_indicators(ticker.upper())
         return {"ok": True, "result": result}
     except Exception as exc:
-        raise HTTPException(
-            status_code=500, detail=f"Technical synthesis failed: {exc}"
-        ) from exc
+        print(f"⚠️ Db Tech check failed: {exc}")
+        return {"ok": True, "result": get_technical_indicators(ticker.upper())}
 
 
 # ── Trust Scoring Endpoints ─────────────────────────────────────────

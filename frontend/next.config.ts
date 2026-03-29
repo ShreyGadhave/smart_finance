@@ -2,7 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  reactCompiler: true,
+  reactCompiler: false,
+  allowedDevOrigins: ["10.71.19.241"],
   async rewrites() {
     return [
       {

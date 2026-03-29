@@ -16,12 +16,15 @@ Analyze the following company data for {ticker}:
 {research_text}
 
 Generate:
-1. Business Summary
-2. Growth Outlook
-3. Risk Factors
-4. Investment Recommendation (Buy/Hold/Sell)
+BUSINESS SUMMARY:
+GROWTH OUTLOOK:
+RISK FACTORS:
+INVESTMENT RECOMMENDATION:
 
 Keep it structured and concise.
+DO NOT use markdown symbols like '##' or '**' or '*'. 
+Use ALL CAPS for labels as shown above.
+No list numbering.
 """
 
     try:

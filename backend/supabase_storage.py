@@ -51,20 +51,31 @@ def complete_pipeline_run(run_id: int, payload: dict, user_id: str = None) -> di
         trust_data = payload.get("trust_report", {})
         risk_data = payload.get("risk_assessment", {})
         
-        update_data = {
+        # 1. First, update with standard columns that we are sure exist
+        basic_update = {
             "overall_sentiment": payload.get("overall_sentiment"),
             "status": "completed",
             "payload": payload,
-            # Map new columns from SQL schema
-            "trust_reliability": trust_data.get("reliability"),
-            "average_trust_score": trust_data.get("score"),
-            "risk_level": risk_data.get("risk_level"),
         }
         
-        # 1. Update main run
-        res = client.table(SUPABASE_TABLE).update(update_data).eq("id", run_id).execute()
-        
-        # 2. Insert individual articles for tracking
+        try:
+            client.table(SUPABASE_TABLE).update(basic_update).eq("id", run_id).execute()
+        except Exception as e:
+            log(f"⚠️ Basic Supabase update failed: {e}", level="WARN")
+            return {"saved": False, "reason": f"Basic update failed: {str(e)}"}
+
+        # 2. Try to update custom analytical columns (may fail if schema not updated)
+        try:
+            analytical_update = {
+                "trust_reliability": trust_data.get("reliability"),
+                "average_trust_score": trust_data.get("score"),
+                "risk_level": risk_data.get("risk_level"),
+            }
+            client.table(SUPABASE_TABLE).update(analytical_update).eq("id", run_id).execute()
+        except Exception as e:
+            log(f"ℹ️ Skipping new schema columns (likely missing in DB): {e}")
+
+        # 3. Insert individual articles for tracking
         articles = payload.get("articles", [])
         if articles:
             article_batch = []
@@ -79,12 +90,24 @@ def complete_pipeline_run(run_id: int, payload: dict, user_id: str = None) -> di
                     "url": art.get("url"),
                     "sentiment": art.get("sentiment"),
                     "confidence": art.get("confidence"),
-                    "trust_score": art.get("trust_score"), # From scoring engine
+                    # These might also be missing in older schemas
+                    "trust_score": art.get("trust_score"),
                     "source_credibility": art.get("source_credibility")
                 })
             
             if article_batch:
-                client.table(SUPABASE_ARTICLES_TABLE).insert(article_batch).execute()
+                try:
+                    client.table(SUPABASE_ARTICLES_TABLE).insert(article_batch).execute()
+                except Exception as e:
+                    log(f"⚠️ Article batch insert failed: {e}. Retrying without new columns...", level="WARN")
+                    # Fallback: remove new columns and try again
+                    for a in article_batch:
+                        a.pop("trust_score", None)
+                        a.pop("source_credibility", None)
+                    try:
+                        client.table(SUPABASE_ARTICLES_TABLE).insert(article_batch).execute()
+                    except Exception as e2:
+                        log(f"❌ Article fallback insert failed: {e2}", level="ERROR")
 
         return {
             "saved": True, 

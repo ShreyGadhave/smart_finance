@@ -23,7 +23,9 @@ News Headlines:
 Explain in simple financial terms:
 - Why the sentiment is {sentiment}
 - What factors are influencing the stock
-- Keep it concise (4-5 lines)
+Keep it concise (4-5 lines).
+DO NOT use markdown symbols like '##' or '**' or '*'. 
+Use ALL CAPS for labels (e.g., REASONING:).
 """
 
     try:
